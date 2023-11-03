@@ -2,6 +2,8 @@
 
 My first project using [Seeed Studio XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) and [arduino-cli](https://github.com/arduino/arduino-cli).
 
+[working example](https://github.com/h-takeyeah/LEDPikaPika/assets/61489178/15299cf7-28d6-4e94-8231-62c5e15c0c9d)
+
 ## Before you begin to develop on VS Code
 I recommend to disable VS Code Arduino plugin will not generate IntelliSense(You can compile by arduino-cli and code verification works well even if you skip this step while VS Code C++ Extension stil complains about missing header files).
 
