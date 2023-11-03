@@ -64,7 +64,7 @@ $ cat .vscode/settings.json
 $ cp ~/.arduino15/internal/rp2040_rp2040_3.6.0_794e66db9afdfc56/lib/platform_inc.txt /tmp/platform_inc.txt
 
 # For example, username is john
-$ sed -i 's/^-iwithprefixbefore/\/home\/john\/.arduino15\/packages\/rp2040\/hardware\/rp2040\/3.6.0/' /tmp/platform_inc.txt
+$ sed -i 's/^-iwithprefixbefore/\/home\/john\/.arduino15\/internal\/rp2040_rp2040_3.6.0_794e66db9afdfc56/' /tmp/platform_inc.txt
 ```
 
 6. Update `includePath` of `.vscode/c_cpp_properties.json` retaining original `includePath` entries. Save it.
