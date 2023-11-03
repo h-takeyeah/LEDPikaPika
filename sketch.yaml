@@ -1,0 +1,7 @@
+profiles:
+  seeed_xiao_rp2040:
+    fqbn: rp2040:rp2040:seeed_xiao_rp2040
+    platforms:
+      - platform: rp2040:rp2040 (3.6.0)
+        platform_index_url: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+default_profile: seeed_xiao_rp2040

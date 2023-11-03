@@ -1,0 +1,8 @@
+{
+    "arduino.commandPath": "arduino-cli",
+    "arduino.path": "/usr/bin",
+    "arduino.useArduinoCli": true,
+    "arduino.additionalUrls": [
+        "https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json"
+    ]
+}
